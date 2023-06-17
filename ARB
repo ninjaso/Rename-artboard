@@ -1,0 +1,7 @@
+function renameArtboards(){
+  var AB = app.activeDocument.artboards;
+for(var i = 0; i < AB.length; i++){
+  AB[i].name = "Artboard " + (i + 1);
+}
+}
+renameArtboards();
